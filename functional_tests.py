@@ -2,7 +2,7 @@ from selenium import webdriver
 import unittest
 
 
-class NewVisitorTest(unitest.Testcase):
+class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):
         self.browser = webdriver.Chrome("chromedriver.exe")
